@@ -1,15 +1,47 @@
 title: EmpreendaPretas
+timezone: America/Sao_Paulo
+collections:
+  posts:
+    output: true
+  profiles:
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: blog/:title/
+- scope:
+    path: ''
+    type: profiles
+  values:
+    layout: profile
+    permalink: perfil/:title/
+lang: pt-BR
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Um espaço dedicado a mulheres negras que estão empreendendo ou planejando 
+  empreender. Aqui, você encontra histórias inspiradoras, dicas valiosas e 
+  recursos práticos para fortalecer sua identidade e crescer como empreendedora.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
+permalink: pretty/
+paginate: 10
+paginate_path: "/blog/:num/"
+sass:
+  style: compressed
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -22,3 +54,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - ".sass-cache/"
+  - ".jekyll-cache/"
+  - gemfiles/
+  - README.md
+  - package.json
+  - CNAME

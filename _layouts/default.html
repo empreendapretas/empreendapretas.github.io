@@ -1,0 +1,20 @@
+---
+layout: compress
+---
+{% capture page_lang %}{{ page.lang | default: site.lang }}{% endcapture %}
+
+<!DOCTYPE html>
+<html lang="{{page_lang}}">
+
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

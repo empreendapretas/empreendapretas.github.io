@@ -1,0 +1,19 @@
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center
+}
+
+.flex {
+  flex: 1 1 auto
+}

@@ -1,0 +1,26 @@
+.home {
+  &-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5)),
+      url('/assets/img/women-in-table.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: var(--spacing);
+    padding-bottom: var(--spacing);
+    
+    &__heading {
+      color: var(--white);
+    }
+    
+    &__description {
+      color: var(--grey-200);
+    }
+  }
+
+  &-about {
+  }
+
+  &-stories {
+  }
+
+  &-team {
+  }
+}

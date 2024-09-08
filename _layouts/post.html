@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<article
+  class="page-content post"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <header class="post-header wrapper">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">{{ content }}</div>
+
+  <div class="post-navigation hero light">
+    <nav class="wrapper large horizontal center">
+      <div class="flex prev">
+        {% if page.previous.url %}
+        <small>Post Anterior</small>
+        <br />
+        <a href="{{site.baseurl}}{{page.previous.url}}">
+          {% if page.previous.titulo %}{{ page.previous.titulo }} {% else
+          %}{{page.previous.title}}{% endif %}
+        </a>
+        {% endif %}
+      </div>
+      <div class="flex next">
+        {% if page.next.url %}
+        <small>Próximo Post</small>
+        <br />
+        <a href="{{ page.next.url | prepend: site.baseurl }}">
+          {% if page.next.titulo %}{{ page.next.titulo }}{% else
+          %}{{page.next.title}}{% endif %}
+        </a>
+        {% endif %}
+      </div>
+    </nav>
+  </div>
+</article>

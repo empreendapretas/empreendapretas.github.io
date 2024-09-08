@@ -1,0 +1,10 @@
+<footer class="site-footer hero brand">
+  <div class="wrapper horizontal center">
+    <p class="site-title">{{ site.title }}</p>
+    <nav class="horizontal">
+      {% for link in site.data.nav %}
+      <a href="{{ link.url }}" class="page-link">{{ link.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</footer>

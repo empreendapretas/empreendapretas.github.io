@@ -1,0 +1,11 @@
+<header class="site-header">
+  <div class="horizontal center">
+    <a href="{{ site.baseurl }}/" class="site-title">{{ site.title }}</a>
+
+    <nav class="site-nav">
+      {% for link in site.data.nav %}
+      <a href="{{ link.url }}" class="page-link">{{ link.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

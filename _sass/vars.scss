@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Raleway:wght@200;400;700&display=swap');
+
+:root {
+  --base-font-family: 'Manrope', sans-serif;
+  --title-font-family: 'Raleway', sans-serif;
+  --base-font-size: 1.1em;
+  --base-font-weight: 300;
+  --small-font-size: calc(var(--base-font-size) * 0.875);
+  --base-line-height: 1.5;
+
+  --white: white;
+  --grey-100: #e7e7e7;
+  --grey-200: #d0d0d0;
+  --grey-300: #b9b9b9;
+  --grey-400: #a2a2a2;
+  --grey-500: #8b8b8b;
+  --grey-600: #747474;
+  --grey-700: #5d5d5d;
+  --grey-800: #464646;
+  --grey-900: #2f2f2f;
+  --black: black;
+
+  --brand-color: #dc6724;
+  --brand-color-secondary: #0e8200;
+
+  --text-color: var(--grey-800);
+  --link-color: var(--brand-color);
+  --link-color-hover: blueviolet;
+  --background-color: var(--white);
+
+  --github-color: #000000;
+  --linkedin-color: #0077b5;
+
+  --spacing-xs: 8px;
+  --spacing: 24px;
+  --spacing-s: 12px;
+  --spacing-m: 36px;
+  --spacing-l: 48px;
+  --spacing-xl: 64px;
+
+  --on-palm: 600px;
+  --on-laptop: 800px;
+  --content-width: 900px;
+  --large-content-width: 1200px;
+}
