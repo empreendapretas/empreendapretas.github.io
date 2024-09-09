@@ -1,23 +1,38 @@
 - name: Alessandra Gonçalves
   headline: Gerenciamento financeiro para empreendedoras.
+  description: >-
+    Educação Financeira com Alessandra: Como consultora financeira, Alessandra vai te ensinar a
+    gerenciar seu dinheiro de forma inteligente, desde o planejamento até os investimentos, para
+    que você possa crescer e manter seu negócio saudável.
   img:
     src: /assets/img/team/alessandra.jpg
     alt: Alessandra
 
 - name: Janaína Faller
   headline: Organização pessoal e produtividade.
+  description: >-
+    Organização Pessoal e Produtividade com Janaina Faller: Aprenda com uma especialista em
+    organizar a vida da mulher empreendedora, e descubra como aumentar sua produtividade
+    sem abrir mão do seu bem-estar.
   img:
     src: /assets/img/team/janaina.jpg
     alt: Janaína
 
 - name: Lucilene Costa
   headline: Estratégias para mulheres negras empreendedoras.
+  description: >-
+    Lucilene Mestre em educação e especialização em Africanidades irá falar 
+    sobre Letramento Racial e Estratégias de vendas.
   img:
     src: /assets/img/team/lucilene.jpg
     alt: Lucilene
 
 - name: Merielli Ribeiro
   headline: Orientação jurídica para empreendedoras MEI e estabelecidas.
+  description: >-
+    Consultoria Jurídica com Merielli Ribeiro: Seja você MEI ou uma empreendedora mais
+    estabelecida, a advogada especialista em contratos e prestação de serviços vai te guiar pelos
+    aspectos legais do seu negócio, garantindo segurança e tranquilidade.
   img:
     src: /assets/img/team/merielli.jpg
     alt: Merielli

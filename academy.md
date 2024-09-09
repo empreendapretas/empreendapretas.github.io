@@ -27,32 +27,12 @@ title: Academy
 ## O Que Você Vai Encontrar no EmpreendaPretas Academy?
 
 <div class="vertical gap-3 my-5">
+  {% for member in site.data.team %}{% capture img_classname %}{% cycle "pull-right", "" %}{% endcapture %}
   <div class="wrapper horizontal--laptop center gap-3">
-    <img src="/assets/img/team/janaina.jpg" alt="Janaina" width="140" />
-    <p>
-      Organização Pessoal e Produtividade com Janaina Faller: Aprenda com uma especialista em
-      organizar a vida da mulher empreendedora, e descubra como aumentar sua produtividade
-      sem abrir mão do seu bem-estar.
-    </p>
+    <img src="{{ member.img.src }}" alt="{{ member.img.alt }}" width="140" class="{{ img_classname }}" />
+    <p>{{ member.description }}</p>
   </div>
-  
-  <div class="wrapper horizontal--laptop center gap-3">
-    <img src="/assets/img/team/alessandra.jpg" alt="Alessandra" width="140" class="pull-right" />
-    <p>
-      Educação Financeira com Alessandra: Como consultora financeira, Alessandra vai te ensinar a
-      gerenciar seu dinheiro de forma inteligente, desde o planejamento até os investimentos, para
-      que você possa crescer e manter seu negócio saudável.
-    </p>
-  </div>
-  
-  <div class="wrapper horizontal--laptop center gap-3">
-    <img src="/assets/img/team/merielli.jpg" alt="Merielli" width="140" />
-    <p>
-      Consultoria Jurídica com Merielli Ribeiro: Seja você MEI ou uma empreendedora mais
-      estabelecida, a advogada especialista em contratos e prestação de serviços vai te guiar pelos
-      aspectos legais do seu negócio, garantindo segurança e tranquilidade.
-    </p>
-  </div>
+  {% endfor %}
 </div>
 
 ## Por Que Assinar o EmpreendaPretas Academy?
