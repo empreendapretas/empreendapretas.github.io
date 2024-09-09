@@ -3,7 +3,7 @@
 :root {
   --base-font-family: 'Manrope', sans-serif;
   --title-font-family: 'Raleway', sans-serif;
-  --base-font-size: 1.1em;
+  --base-font-size: 1em;
   --base-font-weight: 300;
   --small-font-size: calc(var(--base-font-size) * 0.875);
   --base-line-height: 1.5;
@@ -32,8 +32,8 @@
   --linkedin-color: #0077b5;
 
   --spacing-xs: 8px;
-  --spacing: 24px;
   --spacing-s: 12px;
+  --spacing: 24px;
   --spacing-m: 36px;
   --spacing-l: 48px;
   --spacing-xl: 64px;

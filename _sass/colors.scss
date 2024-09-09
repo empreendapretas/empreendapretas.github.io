@@ -1,0 +1,24 @@
+.bg {
+  &-white {
+    background-color: var(--white);
+  }
+  
+  @for $i from 1 through 9 {
+    &-grey-#{$i * 100} {
+      background-color: var(--grey-#{$i * 100});
+      @if $i > 4 {
+        color: var(--white);
+      }
+    }
+  }
+
+  &-black {
+    background-color: var(--black);
+    color: var(--white);
+  }
+
+  &-brand {
+    background-color: var(--brand-color);
+    color: var(--white);
+  }
+}

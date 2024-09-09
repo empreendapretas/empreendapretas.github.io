@@ -5,22 +5,31 @@
     background-size: cover;
     padding-top: var(--spacing);
     padding-bottom: var(--spacing);
-    
+
     &__heading {
       color: var(--white);
+      font-size: clamp(1.5rem, 4vw, 3rem);
+      text-wrap: balance;
     }
-    
+
     &__description {
       color: var(--grey-200);
     }
   }
 
   &-about {
-  }
+    padding-top: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
+    background: url('/assets/img/watermark.png') no-repeat right / auto 80%;
 
-  &-stories {
+    background-position: min(
+      100%,
+      calc((100vw - var(--content-width)) / 2 + var(--content-width))
+    );
   }
 
   &-team {
+    padding-top: var(--spacing);
+    padding-bottom: var(--spacing);
   }
 }

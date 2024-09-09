@@ -1,21 +1,3 @@
-
-.video-frame {
-  height: 0;
-  padding: 0 0 56.25% 0;
-  position: relative;
-
-  iframe,
-  object,
-  embed,
-  video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-}
-
 ul.seamless {
   list-style: none;
   margin: 0;
@@ -31,7 +13,7 @@ ul.seamless {
   box-decoration-break: clone;
 
   color: #fff;
-  background-color: blue;
+  background-color: var(--highlight-color, blue);
 }
 
 .icon {
@@ -42,6 +24,32 @@ ul.seamless {
     display: block;
     width: 1em;
     height: 1em;
+  }
+}
+
+.circle {
+  border-radius: 999em;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
+
+.video-frame {
+  height: 0;
+  padding: 0 0 56.25% 0;
+  position: relative;
+
+  iframe,
+  object,
+  embed,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 

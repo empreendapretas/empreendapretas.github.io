@@ -1,0 +1,43 @@
+.text {
+  &-center {
+    text-align: center;
+  }
+
+  &-left {
+    text-align: left;
+  }
+
+  &-right {
+    text-align: right;
+  }
+
+  &-nowrap {
+    text-wrap: nowrap;
+  }
+
+  &-balance {
+    text-wrap: balance;
+  }
+
+  &-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+.font {
+  &-bold {
+    font-weight: bold;
+  }
+
+  &-italic {
+    font-style: italic;
+  }
+
+  @for $size from 1 through 6 {
+    &-#{$size} {
+      font-size: calc(var(--base-font-size) * #{$size / 6 + 0.6666666667});
+    }
+  }
+}

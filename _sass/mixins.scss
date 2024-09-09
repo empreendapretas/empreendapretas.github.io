@@ -1,0 +1,35 @@
+@mixin min-palm {
+  @media screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin max-palm {
+  @media screen and (max-width: 599px) {
+    @content;
+  }
+}
+
+@mixin min-laptop {
+  @media screen and (min-width: 800px) {
+    @content;
+  }
+}
+
+@mixin max-laptop {
+  @media screen and (max-width: 799px) {
+    @content;
+  }
+}
+
+@mixin min-desktop {
+  @media screen and (min-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin max-desktop {
+  @media screen and (max-width: 999px) {
+    @content;
+  }
+}

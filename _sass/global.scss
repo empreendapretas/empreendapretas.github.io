@@ -2,12 +2,83 @@
   --link-color-hover: var(--white);
   background-color: var(--black);
   padding: var(--spacing-s) var(--spacing);
+  min-height: 3.1rem;
 }
 
 .site-title {
   margin-right: auto;
-  position: relative;
-  transform-origin: top left;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-s);
+
+  font-weight: bold;
+
+  img {
+    display: inline-block;
+    width: auto;
+    height: 3.1rem;
+  }
+}
+
+.site-nav {
+  .menu-icon {
+    display: none;
+  }
+
+  @include max-laptop {
+    .menu-icon {
+      display: block;
+      line-height: 1;
+      background-color: transparent;
+      box-shadow: none;
+      padding: 22px;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      &:hover,
+      &:focus,
+      &:active {
+        box-shadow: none;
+        outline: none;
+      }
+
+      span {
+        margin-top: 4px;
+        margin-bottom: 4px;
+        padding: 2px;
+        width: 26px;
+        display: block;
+        background-color: currentcolor;
+      }
+    }
+
+    .page-link {
+      display: block;
+    }
+
+    .trigger {
+      display: block;
+      position: absolute;
+      top: 78px;
+      right: 4px;
+      text-align: right;
+      border-radius: 3px;
+      background-color: var(--black);
+      padding: 8px 16px;
+      opacity: 0;
+      transform: scale(0);
+      transform-origin: top right;
+      transition: 0.25s ease-in-out;
+    }
+  }
+
+  &:hover .trigger,
+  &:focus .trigger,
+  &:focus-within .trigger {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .page-link {
@@ -28,21 +99,21 @@
 }
 
 .wrapper,
-.post-content>h1,
-.post-content>h2,
-.post-content>h3,
-.post-content>h4,
-.post-content>h5,
-.post-content>h6,
-.post-content>p,
-.post-content>pre,
-.post-content>blockquote,
-.post-content>ul,
-.post-content>ol,
-.post-content>dl,
-.post-content>figure,
-.post-content>table,
-.post-content>[class*="highlight"] {
+.post-content > h1,
+.post-content > h2,
+.post-content > h3,
+.post-content > h4,
+.post-content > h5,
+.post-content > h6,
+.post-content > p,
+.post-content > pre,
+.post-content > blockquote,
+.post-content > ul,
+.post-content > ol,
+.post-content > dl,
+.post-content > figure,
+.post-content > table,
+.post-content > [class*='highlight'] {
   max-width: var(--content-width);
   margin-left: auto;
   margin-right: auto;
@@ -74,12 +145,12 @@
     }
   }
 
-  >ul,
-  >ol {
+  > ul,
+  > ol {
     padding-left: calc(var(--spacing) * 2);
   }
 
-  >blockquote {
+  > blockquote {
     width: var(--content-width);
     max-width: calc(100% - var(--spacing) * 2);
   }
@@ -110,6 +181,6 @@
   }
 }
 
-.pagination>* {
+.pagination > * {
   margin: var(--spacing);
 }

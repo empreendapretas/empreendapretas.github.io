@@ -1,0 +1,27 @@
+@mixin spacing($property) {
+  @each $size, $var in (1: xs, 2: s, 3: null, 4: m, 5: l, 6: xl) {
+    $var: if($var, '--spacing-#{$var}', '--spacing');
+
+    &-#{$size} {
+      #{$property}: var(#{$var});
+    }
+
+    &y-#{$size} {
+      #{$property}-top: var(#{$var});
+      #{$property}-bottom: var(#{$var});
+    }
+
+    &x-#{$size} {
+      #{$property}-left: var(#{$var});
+      #{$property}-right: var(#{$var});
+    }
+  }
+}
+
+.m {
+  @include spacing(margin);
+}
+
+.p {
+  @include spacing(padding);
+}

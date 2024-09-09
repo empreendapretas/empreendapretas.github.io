@@ -1,11 +1,27 @@
 <header class="site-header">
   <div class="horizontal center">
-    <a href="{{ site.baseurl }}/" class="site-title">{{ site.title }}</a>
+    <a href="{{ site.baseurl }}/" class="site-title">
+      <img src="/assets/img/logo-2.png" alt="{{ site.title }} Logo" width="36" />
+      <span>{{ site.title }}</span>
+    </a>
 
     <nav class="site-nav">
-      {% for link in site.data.nav %}
-      <a href="{{ link.url }}" class="page-link">{{ link.label }}</a>
-      {% endfor %}
+      <button
+        class="menu-icon"
+        aria-controls="main-menu"
+        aria-expanded="false"
+        aria-label="Menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div id="main-menu" class="trigger">
+        {% for link in site.data.nav %}
+        <a href="{{ link.url }}" class="page-link">{{ link.label }}</a>
+        {% endfor %}
+      </div>
     </nav>
   </div>
 </header>

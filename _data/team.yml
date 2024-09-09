@@ -1,0 +1,23 @@
+- name: Alessandra Gonçalves
+  headline: Gerenciamento financeiro para empreendedoras.
+  img:
+    src: /assets/img/team/alessandra.jpg
+    alt: Alessandra
+
+- name: Janaína Faller
+  headline: Organização pessoal e produtividade.
+  img:
+    src: /assets/img/team/janaina.jpg
+    alt: Janaína
+
+- name: Lucilene Costa
+  headline: Organização pessoal e produtividade.
+  img:
+    src: /assets/img/team/lucilene.jpg
+    alt: Lucilene
+
+- name: Merielli Ribeiro
+  headline: Orientação jurídica para empreendedoras MEI e estabelecidas.
+  img:
+    src: /assets/img/team/merielli.jpg
+    alt: Merielli
