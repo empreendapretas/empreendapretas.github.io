@@ -4,5 +4,5 @@
   url: /academy/
 # - label: Marketplace
 #   url: /marketplace/
-# - label: Contato
-#   url: /contato/
+- label: Contato
+  url: /contato/
