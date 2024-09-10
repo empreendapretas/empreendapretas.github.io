@@ -1,0 +1,38 @@
+---
+title: Fale conosco
+---
+
+<form action="//server.empreendapretas.com.br/enviar_email.php" method="post">
+  <div class="wrapper vertical py-3 gap-2">
+    <div class="horizontal--desktop gap-2">
+      <div class="flex">
+        <label for="nome" class="required">Nome</label>
+        <input type="text" value="" name="nome" required id="nome" />
+      </div>
+      <div class="flex">
+        <label for="e-mail" class="required">Email</label>
+        <input type="email" value="" name="e-mail" required id="e-mail" />
+      </div>
+      <div class="flex">
+        <label for="telefone" class="required">Telefone</label>
+        <input type="tel" value="" name="telefone" required id="telefone" />
+      </div>
+    </div>
+
+    <div>
+      <label for="mensagem">Mensagem </label>
+      <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+    </div>
+
+    <label hidden>
+      <small>
+        Seres humanos não deveriam ver isso. Deixe este campo em branco.
+      </small>
+      <input type="text" name="honeypot" />
+    </label>
+
+    <div class="text-right">
+      <button type="submit">ENVIAR</button>
+    </div>
+  </div>
+</form>

@@ -17,6 +17,11 @@ body {
   font-weight: var(--base-font-weight);
   color: var(--text-color);
   background-color: var(--background-color);
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 h1,

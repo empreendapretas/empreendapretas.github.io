@@ -26,8 +26,13 @@ label {
 
 .required {
   &::after {
-    content: ' *';
+    display: inline-block;
+    content: '*';
     color: var(--red-1);
+    line-height: 0;
+    font-weight: normal;
+    font-size: 1.6em;
+    translate: 0.25em 0.25em;
   }
 }
 
