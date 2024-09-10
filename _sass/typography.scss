@@ -36,7 +36,7 @@
   }
 
   @for $size from 1 through 6 {
-    &-#{$size} {
+    &--#{$size} {
       font-size: calc(var(--base-font-size) * #{$size / 6 + 0.6666666667});
     }
   }

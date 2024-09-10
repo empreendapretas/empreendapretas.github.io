@@ -48,7 +48,7 @@ sua vida e o seu negócio.
 
 <div class="horizontal--laptop center bg-black p-6 my-6 text-balance home-hero">
   <div class="wrapper flex">
-    <p class="font-6">
+    <p class="font--6">
       Se você está pronta para levar seu empreendimento ao próximo nível, não perca essa
       oportunidade de aprender com as melhores!
     </p>
@@ -104,17 +104,17 @@ realmente funcionam no seu dia a dia? Com este checklist exclusivo, você terá 
   <div class="wrapper">
     <ul class="seamless horizontal--laptop gap-4 text-balance">
       <li>
-        <strong class="font-3">As Melhores Estratégias Diárias:</strong>
+        <strong class="font--3">As Melhores Estratégias Diárias:</strong>
         <br />
         Saiba exatamente o que fazer todos os dias para garantir que suas vendas aumentem e seu negócio se mantenha em crescimento constante.
       </li>
       <li>
-        <strong class="font-3">Dicas de Empoderamento:</strong>
+        <strong class="font--3">Dicas de Empoderamento:</strong>
         <br />
         Descubra como incorporar o empoderamento em cada etapa da sua jornada empreendedora, fortalecendo sua confiança e ampliando seu impacto.
       </li>
       <li>
-        <strong class="font-3">Otimização de Tempo:</strong>
+        <strong class="font--3">Otimização de Tempo:</strong>
         <br />
         Aprenda como focar no que realmente importa e deixar de perder tempo com atividades que não trazem resultados.
       </li>

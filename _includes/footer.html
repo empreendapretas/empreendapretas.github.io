@@ -1,7 +1,24 @@
 <footer class="site-footer hero brand">
-  <div class="wrapper horizontal center">
-    <p class="site-title">{{ site.title }}</p>
-    <nav class="horizontal">
+  <div class="wrapper horizontal">
+    <header class="horizontal center">
+      <a href="/" class="mx-1">
+        <img
+          src="/assets/img/logo-2.png"
+          alt="{{ site.title }} Logo"
+          width="36"
+        />
+      </a>
+
+      <a href="https://www.instagram.com/{{ site.instagram }}" target="_blank" class="mx-1">
+        <span class="icon font--5">{% include svg/instagram.svg %}</span>
+      </a>
+
+      <a href="https://wa.me/{{ site.whatsapp.number }}" target="_blank" class="mx-1">
+        <span class="icon font--5">{% include svg/whatsapp.svg %}</span>
+      </a>
+    </header>
+    
+    <nav class="horizontal center">
       {% for link in site.data.nav %}
       <a href="{{ link.url }}" class="page-link">{{ link.label }}</a>
       {% endfor %}
