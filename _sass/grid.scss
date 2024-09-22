@@ -10,7 +10,7 @@
   @include max-laptop {
     flex-direction: column;
   }
-  
+
   @include min-laptop {
     .pull-right {
       order: 1;
@@ -61,37 +61,55 @@
 
 .center {
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 
 .wrap {
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 .gap-1 {
-  gap: var(--spacing-xs)
+  gap: var(--spacing-xs);
 }
 
 .gap-2 {
-  gap: var(--spacing-s)
+  gap: var(--spacing-s);
 }
 
 .gap-3 {
-  gap: var(--spacing)
+  gap: var(--spacing);
 }
 
 .gap-4 {
-  gap: var(--spacing-m)
+  gap: var(--spacing-m);
 }
 
 .gap-5 {
-  gap: var(--spacing-l)
+  gap: var(--spacing-l);
 }
 
 .gap-6 {
-  gap: var(--spacing-xl)
+  gap: var(--spacing-xl);
 }
 
 .flex {
-  flex: 1 1 auto
+  flex: 1 1 auto;
+}
+
+@mixin span-sizes($prefix) {
+  @for $i from 1 through 12 {
+    .span#{$prefix}--#{$i} {
+      grid-column: span #{$i};
+    }
+  }
+}
+
+@include span-sizes('');
+
+@include min-palm {
+  @include span-sizes('--laptop');
+}
+
+@include min-laptop {
+  @include span-sizes('--desktop');
 }
