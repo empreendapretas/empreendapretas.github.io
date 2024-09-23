@@ -1,0 +1,121 @@
+profiles:
+  - username: "podsamba013"
+    img:
+      src: "/assets/img/embaixadoras/podsamba013.jpg"
+      alt: "Camila Betânia PodSamba013"
+    name: "Camila Betânia PodSamba013"
+    followers: 6430
+    following: 3600
+    posts: 1556
+    bio: "🙌🏾 Parcerias via WhatsApp ou Direct. Apresentadora do @podsamba013 no @__tmbrasil."
+    website: "https://youtube.com/@camilabetaniarochadeoliveira?si=Ol5E1bj4-GtmlvLv"
+
+  - username: "elicortesterapeuta"
+    img:
+      src: "/assets/img/embaixadoras/elicortesterapeuta.jpg"
+      alt: "Eli Cortes - Ginecologia Natural"
+    name: "Eli Cortes - Ginecologia Natural"
+    followers: 855
+    following: 743
+    posts: 283
+    bio: "✨ Ajudando mulheres a desbloquear seu potencial através da conexão com a natureza feminina. Workshop: O Poder do Ciclo. 🌸"
+    website: "https://linktr.ee/elicortesterapeuta"
+
+  - username: "iluminessencia"
+    img:
+      src: "/assets/img/embaixadoras/iluminessencia.jpg"
+      alt: "Iluminessência by Joice Mendes"
+    name: "Iluminessência by Joice Mendes"
+    followers: 3157
+    following: 1687
+    posts: 1307
+    bio: "Transforme seu estilo e imagem pessoal com confiança e autenticidade."
+    website: "http://joiceiluminessencia.kpages.online/nova-pagina-d593c108-edb1-40bc-8813-b6a6b305f80c"
+
+  - username: "camilameisimples"
+    img:
+      src: "/assets/img/embaixadoras/camilameisimples.jpg"
+      alt: "Ana Camila - Contadora"
+    name: "Ana Camila - Contadora"
+    followers: 1203
+    following: 271
+    posts: 154
+    bio: "🏆 Empreendedora do Ano 2023. 👨‍💻 Especialista em pequenas empresas e MEI. Consultoria completa: abertura e baixa de CNPJ, IRPF."
+    website: "https://sandwiche.me/camilameisimples"
+
+  - username: "cinthiasousa.av"
+    img:
+      src: "/assets/img/embaixadoras/cinthiasousa.av.jpg"
+      alt: "Organização Administrativa e Financeira"
+    name: "Organização Administrativa e Financeira"
+    followers: 304
+    following: 88
+    posts: 51
+    bio: "👩🏽‍💻 Ajudando a transformar faturamento em lucro com mais de 20 anos de experiência. Vamos conversar!"
+    website: "https://cutt.ly/jxM1xp8"
+
+  - username: "bpenastore"
+    img:
+      src: "/assets/img/embaixadoras/bpenastore.jpg"
+      alt: "Bpena Store Calçados Femininos"
+    name: "Bpena Store Calçados Femininos"
+    followers: 3892
+    following: 7522
+    posts: 38
+    bio: "👠 Loja online e física (showroom). Modelos exclusivos de calçados femininos do 33 ao 43. Enviamos para todo o Brasil."
+    website: "https://linktr.ee/BpenaStore"
+
+  - username: "natranca.transformacoescapilar"
+    img:
+      src: "/assets/img/embaixadoras/natranca.transformacoescapilar.jpg"
+      alt: "NaTrança"
+    name: "NaTrança"
+    followers: 1762
+    following: 1905
+    posts: 763
+    bio: "💇🏾‍♀️ Cuidando da autoestima feminina com terapias capilares e tranças especializadas. Agende sua avaliação."
+    website: "https://wa.me/message/HL52UEOGCY4GE1"
+
+  - username: "estudiodandara.mktedesign"
+    img:
+      src: "/assets/img/embaixadoras/estudiodandara.mktedesign.jpg"
+      alt: "Estúdio Dandara | Marketing e Design"
+    name: "Estúdio Dandara | Marketing e Design"
+    followers: 331
+    following: 936
+    posts: 43
+    bio: "🚀 Ajudamos negócios a crescer com marketing digital e design focados em resultados. Conheça nossos serviços."
+    website: "https://wa.link/ghk8mr"
+
+  - username: "psi_marciaciriloaraujo"
+    img:
+      src: "/assets/img/embaixadoras/psi_marciaciriloaraujo.jpg"
+      alt: "Márcia Cirilo | Psicóloga"
+    name: "Márcia Cirilo | Psicóloga"
+    followers: 2466
+    following: 2344
+    posts: 362
+    bio: "📚 Escritora e mentora. Ajudo profissionais a se tornarem protagonistas de suas carreiras. Atendimentos presenciais e online."
+    website: "https://bio.site/clinicamarciacirilo"
+
+  - username: "dauramenezes"
+    img:
+      src: "/assets/img/embaixadoras/dauramenezes.jpg"
+      alt: "Daura Menezes"
+    name: "Daura Menezes"
+    followers: 2272
+    following: 769
+    posts: 754
+    bio: "📸 Fotógrafa de dança e ensaios de empoderamento pessoal. Explore outros olhares em @dauramenezes_photography e @dauramenezes.dance."
+    website: "https://wa.me/message/KCD2J2C6RWXCG1"
+
+  - username: "samantalopes_br"
+    img:
+      src: "/assets/img/embaixadoras/samantalopes_br.jpg"
+      alt: "Samanta Lopes"
+    name: "Samanta Lopes"
+    followers: 2233
+    following: 7503
+    posts: 174
+    bio: "#Educação, #Empreendedorismo, #Negritude, #Tecnologia, #Robótica. Vamos somar conhecimento e transformar vidas."
+    website: "https://www.hubetech.com.br/"

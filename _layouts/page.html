@@ -2,10 +2,12 @@
 layout: default
 ---
 
-<article class="page-content page">
-  <header class="post-header wrapper">
+<article class="page">
+  {% if page.header %}{{ page.header | markdownify }}{% else %}
+  <header class="page-content post-header wrapper">
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
+  {% endif %}
 
   <div class="post-content">{{ content }}</div>
 </article>
