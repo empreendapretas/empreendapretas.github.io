@@ -4,7 +4,7 @@
   url: /academy/
 - label: Parcerias
   url: /parcerias/
-# - label: Marketplace
-#   url: /marketplace/
+- label: Marketplace
+  url: /marketplace/
 - label: Contato
   url: /contato/

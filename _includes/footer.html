@@ -1,7 +1,7 @@
 <footer class="site-footer hero brand">
-  <div class="wrapper horizontal">
+  <div class="vertical items-center gap-3">
     <header class="horizontal center">
-      <a href="/" class="mx-1">
+      <a href="/" class="mx-1" style="flex: 0 0 36px;">
         <img
           src="/assets/img/logo-2.png"
           alt="{{ site.title }} Logo"
@@ -18,7 +18,7 @@
       </a>
     </header>
     
-    <nav class="horizontal center">
+    <nav class="horizontal wrap center">
       {% for link in site.data.nav %}
       <a href="{{ link.url }}" class="page-link">{{ link.label }}</a>
       {% endfor %}

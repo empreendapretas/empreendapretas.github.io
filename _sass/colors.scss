@@ -22,3 +22,23 @@
     color: var(--white);
   }
 }
+
+.txt {
+  &-white {
+    color: var(--white);
+  }
+  
+  @for $i from 1 through 9 {
+    &-grey-#{$i * 100} {
+      color: var(--grey-#{$i * 100});
+    }
+  }
+
+  &-black {
+    color: var(--black);
+  }
+
+  &-brand {
+    color: var(--brand-color);
+  }
+}

@@ -1,17 +1,31 @@
-@mixin spacing($property) {
+@mixin spacing($prefix, $property) {
+  &#{$prefix}-0 {
+    #{$property}: 0;
+  }
+
+  &y#{$prefix}-0 {
+    #{$property}-top: 0;
+    #{$property}-bottom: 0;
+  }
+
+  &x#{$prefix}-0 {
+    #{$property}-left: 0;
+    #{$property}-right: 0;
+  }
+
   @each $size, $var in (1: xs, 2: s, 3: null, 4: m, 5: l, 6: xl) {
     $var: if($var, '--spacing-#{$var}', '--spacing');
 
-    &-#{$size} {
+    &#{$prefix}-#{$size} {
       #{$property}: var(#{$var});
     }
 
-    &y-#{$size} {
+    &y#{$prefix}-#{$size} {
       #{$property}-top: var(#{$var});
       #{$property}-bottom: var(#{$var});
     }
 
-    &x-#{$size} {
+    &x#{$prefix}-#{$size} {
       #{$property}-left: var(#{$var});
       #{$property}-right: var(#{$var});
     }
@@ -19,9 +33,25 @@
 }
 
 .m {
-  @include spacing(margin);
+  @include spacing('', margin);
+
+  @include min-palm {
+    @include spacing('--laptop', margin);
+  }
+
+  @include min-laptop {
+    @include spacing('--desktop', margin);
+  }
 }
 
 .p {
-  @include spacing(padding);
+  @include spacing('', padding);
+
+  @include min-palm {
+    @include spacing('--laptop', padding);
+  }
+
+  @include min-laptop {
+    @include spacing('--desktop', padding);
+  }
 }

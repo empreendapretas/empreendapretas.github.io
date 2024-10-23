@@ -9,15 +9,15 @@
   --base-line-height: 1.5;
 
   --white: white;
-  --grey-100: #e7e7e7;
-  --grey-200: #d0d0d0;
-  --grey-300: #b9b9b9;
-  --grey-400: #a2a2a2;
-  --grey-500: #8b8b8b;
-  --grey-600: #747474;
-  --grey-700: #5d5d5d;
-  --grey-800: #464646;
-  --grey-900: #2f2f2f;
+  --grey-100: #f7f7f7;
+  --grey-200: #eeeeee;
+  --grey-300: #e0e0e0;
+  --grey-400: #bdbdbd;
+  --grey-500: #9e9e9e;
+  --grey-600: #757575;
+  --grey-700: #616161;
+  --grey-800: #424242;
+  --grey-900: #333333;
   --black: black;
   
   --red-1: #dc6724;
@@ -36,8 +36,8 @@
   --brand-color-secondary: #0e8200;
 
   --text-color: var(--grey-800);
-  --link-color: var(--brand-color);
-  --link-color-hover: blueviolet;
+  --link-color: var(--red-1);
+  --link-color-hover: var(--red-3);
   --background-color: var(--white);
 
   --github-color: #000000;
