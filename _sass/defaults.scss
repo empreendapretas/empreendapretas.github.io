@@ -183,6 +183,21 @@ tr:nth-child(even) {
   background-color: var(--grey-100);
 }
 
+dialog {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+dialog[open] {
+  display: block;
+}
+
 [hidden] {
   display: none !important
 }

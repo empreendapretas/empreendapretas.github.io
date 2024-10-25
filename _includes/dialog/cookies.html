@@ -1,0 +1,29 @@
+<dialog id="dialog-cookies" class="bottom slide-up bg-grey-600">
+  <div class="wrapper">
+    <p class="my-1">
+      <strong>Aviso de Cookies</strong>
+    </p>
+    <p class="font--1 my-1">
+      Utilizamos cookies para melhorar sua experiência e para fins analíticos, em
+      conformidade com a LGPD. Ao continuar navegando, você concorda com o uso de
+      cookies do Google Analytics para nos ajudar a entender e otimizar seu uso do
+      site.
+    </p>
+    <p class="horizontal justify-end my-1">
+      <button style="--button-color: var(--black);" type="button" onclick="closeCookiesWarning();">Entendi</button>
+    </p>
+  </div>
+</dialog>
+
+<script>
+  const isDialogCookiesClosed = localStorage.getItem('dialog-cookies-closed');
+
+  if (!isDialogCookiesClosed) {
+    document.getElementById('dialog-cookies').setAttribute('open', true);
+  }
+
+  function closeCookiesWarning() {
+    localStorage.setItem('dialog-cookies-closed', true);
+    document.getElementById('dialog-cookies').removeAttribute('open');
+  }
+</script>

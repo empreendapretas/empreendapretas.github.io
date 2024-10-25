@@ -41,6 +41,38 @@ ul.seamless {
   }
 }
 
+.pos-f {
+  position: fixed;
+}
+
+.pos-a {
+  position: absolute;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.pos-s {
+  position: static;
+}
+
+.top {
+  top: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.left {
+  left: 0;
+}
+
 .border-radius {
   border-radius: 6px;
   overflow: hidden;
