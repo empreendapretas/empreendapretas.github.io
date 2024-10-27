@@ -119,3 +119,20 @@ profiles:
     posts: 174
     bio: "#Educação, #Empreendedorismo, #Negritude, #Tecnologia, #Robótica. Vamos somar conhecimento e transformar vidas."
     website: "https://www.hubetech.com.br/"
+
+  - username: "hannareis_terapeuta"
+    img:
+      src: "/assets/img/embaixadoras/hannareis_terapeuta.jpg"
+      alt: "Hanna Reis"
+    name: "Hanna Reis"
+    followers: 511
+    following: 257
+    posts: 0
+    bio: >
+      Psicoterapeuta e Psicanalista | SINPH-0121
+
+      🧠 Foco em desenvolvimento humano e saúde mental
+      👥 Atendo adultos, adolescentes e crianças
+      🎙 Palestrante em saúde mental e educação
+      💪 Analista corporal | Educadora socioeducativa com 7+ anos de experiência
+    website: "https://www.tiktok.com/@hannareis777"
