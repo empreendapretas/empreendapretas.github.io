@@ -1,0 +1,195 @@
+---
+layout: default
+title: 'Desafio de 15 Dias - Eu, Empreendedora'
+---
+
+<style>
+  /* Aplicar fundo preto apenas nesta página */
+  .page {
+    background: #000000;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
+  .challenge-hero__image {
+    display: block;
+    margin: 0 auto var(--spacing-l);
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .challenge-hero {
+    background: #000000;
+    color: #ffffff;
+    padding: var(--spacing-l) 0;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .challenge-hero__subtitle {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: var(--spacing-s);
+    color: var(--brand-color);
+  }
+
+  .challenge-hero__title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: var(--spacing);
+    font-family: var(--title-font-family);
+    line-height: 1.2;
+  }
+
+  .challenge-hero__description {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-l);
+    opacity: 0.9;
+    line-height: 1.5;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--brand-color);
+  }
+
+  .challenge-hero__guarantee {
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-m);
+    font-weight: 600;
+  }
+
+  .challenge-hero__benefits {
+    font-size: 1rem;
+    margin-bottom: var(--spacing-l);
+    opacity: 0.8;
+  }
+
+  .form-container {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: var(--spacing-l);
+    max-width: 400px;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+  }
+
+  .form-group {
+    margin-bottom: var(--spacing);
+  }
+
+  .form-label {
+    display: block;
+    margin-bottom: var(--spacing-xs);
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .submit-button {
+    width: 100%;
+    background: var(--brand-color);
+    color: #ffffff;
+    padding: var(--spacing) var(--spacing-m);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .submit-button:hover {
+    background: var(--red-2);
+    transform: translateY(-2px);
+  }
+
+  /* Override header and footer to match black theme only on this page */
+  .page header,
+  .page footer {
+    background: #000000 !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
+  .page header a,
+  .page footer a {
+    color: #ffffff !important;
+  }
+</style>
+
+<section class="challenge-hero">
+  <div class="wrapper">
+    <img
+      src="/assets/img/desafio-15-dias.jpg"
+      alt="Desafio 15 Dias"
+      class="challenge-hero__image"
+      width="600"
+    />
+
+    <div class="challenge-hero__subtitle">Desafio</div>
+
+    <h1 class="challenge-hero__title">Eu, Empreendedora</h1>
+
+    <p class="challenge-hero__description">
+      15 dias para destravar sua identidade empreendedora e começar a vender com
+      confiança
+    </p>
+
+    <p class="challenge-hero__guarantee">
+      Essa é a sua garantia de ter um faturamento contínuo tendo a sua
+      identidade como ponto principal de conexão.
+    </p>
+
+    <p class="challenge-hero__benefits">
+      Atividades diárias para melhorar o seu posicionamento e vender mais.
+    </p>
+
+    <div class="form-container">
+      <form action="//server.empreendapretas.com.br/desafio_15_dias.php">
+        <div class="form-group">
+          <label class="form-label" for="nome">Nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            class="form-input"
+            placeholder="Seu nome completo"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Email:</label>
+          <input
+            type="email"
+            id="e-mail"
+            name="e-mail"
+            class="form-input"
+            placeholder="seu@email.com"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="whatsapp">WhatsApp:</label>
+          <input
+            type="tel"
+            id="whatsapp"
+            name="whatsapp"
+            class="form-input"
+            placeholder="(11) 99999-9999"
+            required
+          />
+        </div>
+
+        <button type="submit" class="submit-button">
+          Quero Participar do Desafio
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
